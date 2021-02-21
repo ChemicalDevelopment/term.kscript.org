@@ -1,0 +1,16 @@
+name: "term.kscript.org"
+description: "kscript terminal emulator"
+author: Cade Brown
+
+url: '' 
+baseurl: ''
+
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+
+sass:
+  style: :compressed
+  sass_dir: assets/css/

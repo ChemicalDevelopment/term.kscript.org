@@ -1,0 +1,18 @@
+/* site.css - term.kscript.org theme
+ * 
+ * @author: Cade Brown <cade@kscript.org>
+ */
+
+
+:root {
+    --background: #000000;
+    --size: 1.36;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+.term {
+    height: 100%;
+    padding: 12px;
+}

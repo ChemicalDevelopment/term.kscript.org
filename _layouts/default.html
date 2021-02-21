@@ -1,0 +1,34 @@
+---
+---
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>kscript {{ page.version }}</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- jQuery terminal -->
+    <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+
+
+    <!-- site theme -->    
+    <link rel="stylesheet" href="/assets/css/site.css">
+
+    <!-- kscript web bindings -->
+    <script src="/assets/js/{{ page.version }}/libks.js"></script>
+    <script src="/assets/js/makeksterm.js"></script>
+
+
+</head>
+
+<body>
+  {{ content }}
+</body>
+</html>
