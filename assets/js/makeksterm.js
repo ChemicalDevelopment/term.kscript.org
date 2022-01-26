@@ -98,7 +98,7 @@ function makeksterm(id) {
 
         term.exec("import m")
         term.exec("import nx")
-        term.exec("import os")
+        //term.exec("import os")
         term.exec("import util")
 
         // Now, execute the lines in the URL, if there were any
