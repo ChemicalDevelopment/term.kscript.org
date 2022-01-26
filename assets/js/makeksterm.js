@@ -40,7 +40,6 @@ function makeksterm(id) {
             // Get a hash of the IO objects so we can tell if something has been printed
             let hash = ks.iohash()
             let this_ct = ct
-            window.T = term
             
             //cmd = term.get_command()
             //console.log("CMD", cmd)
