@@ -84,6 +84,7 @@ function makeksterm(id) {
         write("#   * m.isprime(2**7 - 1)")
         write("#   * m.zeta(2)")
         write("#   * nx.fft.fft([[1, 2], [3, 4]])")
+        write("#   * abs(1+2i)")
         write("#")
         write("# quick links:")
         write("#   * https://docs.kscript.org/#Syntax")
