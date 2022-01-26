@@ -77,6 +77,7 @@ function makeksterm(id) {
         write("#   * no relevant whitespace (use 'if x {...}')")
         write("#   * different naming scheme (true, false, inf, nan)")
         write("#   * use 'obj.__attr' for list of all attributes")
+        write("#   * indexing arrays/tensors is like numpy (i.e. x[2:3, ::-1])")
         write("#")
         write("# math examples:")
         write("#   * 2**100")
